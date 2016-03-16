@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12554FE21C984FBE00362D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FE11C984FBE00362D8C /* AppDelegate.swift */; };
+		12554FE41C984FBE00362D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FE31C984FBE00362D8C /* ViewController.swift */; };
+		12554FE71C984FBE00362D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12554FE51C984FBE00362D8C /* Main.storyboard */; };
+		12554FE91C984FBE00362D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12554FE81C984FBE00362D8C /* Assets.xcassets */; };
+		12554FEC1C984FBE00362D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12554FEA1C984FBE00362D8C /* LaunchScreen.storyboard */; };
+		12554FF51C98500600362D8C /* YahooHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FF31C98500600362D8C /* YahooHeader.swift */; };
+		12554FF61C98500600362D8C /* YahooHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12554FF41C98500600362D8C /* YahooHeader.xib */; };
+		12554FF81C98524600362D8C /* TodayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FF71C98524600362D8C /* TodayDataSource.swift */; };
+		12554FFB1C98570700362D8C /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FF91C98570700362D8C /* TodayCell.swift */; };
+		12554FFC1C98570700362D8C /* TodayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12554FFA1C98570700362D8C /* TodayCell.xib */; };
+		125550001C985F7500362D8C /* YahooCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FFE1C985F7500362D8C /* YahooCell.swift */; };
+		125550011C985F7500362D8C /* YahooCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12554FFF1C985F7500362D8C /* YahooCell.xib */; };
+		125550031C985FC900362D8C /* YahooDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125550021C985FC900362D8C /* YahooDataSource.swift */; };
+		125550051C9867C200362D8C /* png clouds in Resources */ = {isa = PBXBuildFile; fileRef = 125550041C9867C200362D8C /* png clouds */; };
+		12B59A781C9988D000808601 /* DecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B59A761C9988D000808601 /* DecorationView.swift */; };
+		12B59A791C9988D000808601 /* DecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B59A771C9988D000808601 /* DecorationView.xib */; };
+		12B59A7B1C99AA6E00808601 /* YahooFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B59A7A1C99AA6E00808601 /* YahooFlowLayout.swift */; };
+		12B59A7E1C99BDC200808601 /* aoen 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B59A7D1C99BDC200808601 /* aoen 11.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12554FDE1C984FBE00362D8C /* Yahoo Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12554FE11C984FBE00362D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12554FE31C984FBE00362D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12554FE61C984FBE00362D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12554FE81C984FBE00362D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12554FEB1C984FBE00362D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12554FED1C984FBE00362D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12554FF31C98500600362D8C /* YahooHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooHeader.swift; sourceTree = "<group>"; };
+		12554FF41C98500600362D8C /* YahooHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YahooHeader.xib; sourceTree = "<group>"; };
+		12554FF71C98524600362D8C /* TodayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayDataSource.swift; sourceTree = "<group>"; };
+		12554FF91C98570700362D8C /* TodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
+		12554FFA1C98570700362D8C /* TodayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayCell.xib; sourceTree = "<group>"; };
+		12554FFE1C985F7500362D8C /* YahooCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooCell.swift; sourceTree = "<group>"; };
+		12554FFF1C985F7500362D8C /* YahooCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YahooCell.xib; sourceTree = "<group>"; };
+		125550021C985FC900362D8C /* YahooDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooDataSource.swift; sourceTree = "<group>"; };
+		125550041C9867C200362D8C /* png clouds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "png clouds"; sourceTree = "<group>"; };
+		12B59A761C9988D000808601 /* DecorationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecorationView.swift; sourceTree = "<group>"; };
+		12B59A771C9988D000808601 /* DecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecorationView.xib; sourceTree = "<group>"; };
+		12B59A7A1C99AA6E00808601 /* YahooFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooFlowLayout.swift; sourceTree = "<group>"; };
+		12B59A7D1C99BDC200808601 /* aoen 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aoen 11.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12554FDB1C984FBE00362D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12554FD51C984FBE00362D8C = {
+			isa = PBXGroup;
+			children = (
+				12554FE01C984FBE00362D8C /* Yahoo Weather */,
+				12554FDF1C984FBE00362D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12554FDF1C984FBE00362D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12554FDE1C984FBE00362D8C /* Yahoo Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12554FE01C984FBE00362D8C /* Yahoo Weather */ = {
+			isa = PBXGroup;
+			children = (
+				12554FE11C984FBE00362D8C /* AppDelegate.swift */,
+				12554FE31C984FBE00362D8C /* ViewController.swift */,
+				12554FE51C984FBE00362D8C /* Main.storyboard */,
+				12B59A7A1C99AA6E00808601 /* YahooFlowLayout.swift */,
+				125550021C985FC900362D8C /* YahooDataSource.swift */,
+				12554FFE1C985F7500362D8C /* YahooCell.swift */,
+				12554FFF1C985F7500362D8C /* YahooCell.xib */,
+				12554FF31C98500600362D8C /* YahooHeader.swift */,
+				12554FF41C98500600362D8C /* YahooHeader.xib */,
+				12554FF71C98524600362D8C /* TodayDataSource.swift */,
+				12554FF91C98570700362D8C /* TodayCell.swift */,
+				12554FFA1C98570700362D8C /* TodayCell.xib */,
+				12B59A761C9988D000808601 /* DecorationView.swift */,
+				12B59A771C9988D000808601 /* DecorationView.xib */,
+				12B59A7D1C99BDC200808601 /* aoen 11.jpg */,
+				125550041C9867C200362D8C /* png clouds */,
+				12554FE81C984FBE00362D8C /* Assets.xcassets */,
+				12554FEA1C984FBE00362D8C /* LaunchScreen.storyboard */,
+				12554FED1C984FBE00362D8C /* Info.plist */,
+			);
+			path = "Yahoo Weather";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12554FDD1C984FBE00362D8C /* Yahoo Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12554FF01C984FBE00362D8C /* Build configuration list for PBXNativeTarget "Yahoo Weather" */;
+			buildPhases = (
+				12554FDA1C984FBE00362D8C /* Sources */,
+				12554FDB1C984FBE00362D8C /* Frameworks */,
+				12554FDC1C984FBE00362D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yahoo Weather";
+			productName = "Yahoo Weather";
+			productReference = 12554FDE1C984FBE00362D8C /* Yahoo Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12554FD61C984FBE00362D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VuVince;
+				TargetAttributes = {
+					12554FDD1C984FBE00362D8C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y8UZ6VLE84;
+					};
+				};
+			};
+			buildConfigurationList = 12554FD91C984FBE00362D8C /* Build configuration list for PBXProject "Yahoo Weather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12554FD51C984FBE00362D8C;
+			productRefGroup = 12554FDF1C984FBE00362D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12554FDD1C984FBE00362D8C /* Yahoo Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12554FDC1C984FBE00362D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12554FF61C98500600362D8C /* YahooHeader.xib in Resources */,
+				125550051C9867C200362D8C /* png clouds in Resources */,
+				12554FFC1C98570700362D8C /* TodayCell.xib in Resources */,
+				12B59A7E1C99BDC200808601 /* aoen 11.jpg in Resources */,
+				125550011C985F7500362D8C /* YahooCell.xib in Resources */,
+				12554FEC1C984FBE00362D8C /* LaunchScreen.storyboard in Resources */,
+				12554FE91C984FBE00362D8C /* Assets.xcassets in Resources */,
+				12B59A791C9988D000808601 /* DecorationView.xib in Resources */,
+				12554FE71C984FBE00362D8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12554FDA1C984FBE00362D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12554FF81C98524600362D8C /* TodayDataSource.swift in Sources */,
+				12554FFB1C98570700362D8C /* TodayCell.swift in Sources */,
+				12B59A7B1C99AA6E00808601 /* YahooFlowLayout.swift in Sources */,
+				12B59A781C9988D000808601 /* DecorationView.swift in Sources */,
+				12554FE41C984FBE00362D8C /* ViewController.swift in Sources */,
+				12554FF51C98500600362D8C /* YahooHeader.swift in Sources */,
+				125550001C985F7500362D8C /* YahooCell.swift in Sources */,
+				12554FE21C984FBE00362D8C /* AppDelegate.swift in Sources */,
+				125550031C985FC900362D8C /* YahooDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12554FE51C984FBE00362D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12554FE61C984FBE00362D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12554FEA1C984FBE00362D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12554FEB1C984FBE00362D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12554FEE1C984FBE00362D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12554FEF1C984FBE00362D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12554FF11C984FBE00362D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vuvince.Yahoo-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12554FF21C984FBE00362D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vuvince.Yahoo-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12554FD91C984FBE00362D8C /* Build configuration list for PBXProject "Yahoo Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12554FEE1C984FBE00362D8C /* Debug */,
+				12554FEF1C984FBE00362D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12554FF01C984FBE00362D8C /* Build configuration list for PBXNativeTarget "Yahoo Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12554FF11C984FBE00362D8C /* Debug */,
+				12554FF21C984FBE00362D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12554FD61C984FBE00362D8C /* Project object */;
+}
