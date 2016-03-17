@@ -18,9 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hJQ-HZ-mKv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMGP6496.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="lBI-lI-NjY">
                                 <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hJQ-HZ-mKv">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YRp-UM-V3Y" customClass="YahooFlowLayout" customModule="Yahoo_Weather" customModuleProvider="target">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -33,9 +36,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hJQ-HZ-mKv" secondAttribute="bottom" id="HVS-K0-Dqc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lBI-lI-NjY" secondAttribute="trailing" constant="-20" id="HXa-XI-EKv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hJQ-HZ-mKv" secondAttribute="trailing" constant="-20" id="Mbo-TT-dRr"/>
+                            <constraint firstItem="lBI-lI-NjY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="XQh-52-rkc"/>
+                            <constraint firstItem="lBI-lI-NjY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="bab-ey-Fc4"/>
                             <constraint firstItem="hJQ-HZ-mKv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="hKZ-wQ-fcz"/>
                             <constraint firstItem="hJQ-HZ-mKv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="lcR-Jm-5ch"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lBI-lI-NjY" secondAttribute="bottom" id="oqE-xJ-C9i"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -48,4 +55,7 @@
             <point key="canvasLocation" x="245" y="305"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMGP6496.JPG" width="3169" height="1980"/>
+    </resources>
 </document>

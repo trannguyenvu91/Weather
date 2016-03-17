@@ -23,7 +23,7 @@ class YahooFlowLayout: UICollectionViewFlowLayout {
         let attributes = super.layoutAttributesForElementsInRect(rect)
         let collectionView = self.collectionView
         let offsetY = collectionView?.contentOffset.y
-        let headerSize = CGSizeMake(CGRectGetWidth(self.collectionView!.frame), 260)
+        let headerSize = CGSizeMake(CGRectGetWidth(self.collectionView!.frame), 380)
         
         var newAttributes:Array = [UICollectionViewLayoutAttributes]()
         var isShowHeader = false
@@ -34,11 +34,11 @@ class YahooFlowLayout: UICollectionViewFlowLayout {
                 var rect:CGRect = CGRectZero
                 
                 if offsetY <= 0 {
-                    rect.origin = CGPointMake(0, 0)
-                    rect.size = headerSize
+                    rect.origin = CGPointMake(0, offsetY!)
+                    rect.size = CGSizeMake(headerSize.width, headerSize.height - offsetY!)
                 } else {
                     rect.origin = CGPointMake(0, offsetY!)
-                    rect.size = CGSizeMake(headerSize.width, max(100, headerSize.height - offsetY!))
+                    rect.size = CGSizeMake(headerSize.width, max(230, headerSize.height - offsetY!))
                 }
                 att.frame = rect
                 isShowHeader = true
@@ -55,11 +55,11 @@ class YahooFlowLayout: UICollectionViewFlowLayout {
             var rect:CGRect = CGRectZero
             
             if offsetY <= 0 {
-                rect.origin = CGPointMake(0, 0)
-                rect.size = headerSize
+                rect.origin = CGPointMake(0, offsetY!)
+                rect.size = CGSizeMake(headerSize.width, headerSize.height - offsetY!)
             } else {
                 rect.origin = CGPointMake(0, offsetY!)
-                rect.size = CGSizeMake(headerSize.width, max(100, headerSize.height - offsetY!))
+                rect.size = CGSizeMake(headerSize.width, max(230, headerSize.height - offsetY!))
             }
             headerAtt!.frame = rect
             headerAtt!.zIndex = 100
@@ -70,11 +70,12 @@ class YahooFlowLayout: UICollectionViewFlowLayout {
         var rect:CGRect = CGRectZero
         
         if offsetY <= 0 {
-            rect.origin = CGPointMake(0, 0)
-            rect.size = headerSize
+            
+            rect.origin = CGPointMake(0, offsetY!)
+            rect.size = CGSizeMake(headerSize.width, headerSize.height - offsetY!)
         } else {
             rect.origin = CGPointMake(0, offsetY!)
-            rect.size = CGSizeMake(headerSize.width, max(100, headerSize.height - offsetY!))
+            rect.size = CGSizeMake(headerSize.width, max(230, headerSize.height - offsetY!))
         }
         decoAtt.frame = rect
         decoAtt.zIndex = 99

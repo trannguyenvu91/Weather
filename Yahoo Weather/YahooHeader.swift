@@ -25,11 +25,13 @@ class YahooHeader: UICollectionReusableView {
         
         backgroundColor = UIColor.clearColor()
         collectionView.backgroundColor = UIColor.clearColor()
+        collectionView.layer.borderColor = UIColor.whiteColor().CGColor
+        collectionView.layer.borderWidth = 0.3
     }
     
     override func applyLayoutAttributes(layoutAttributes: UICollectionViewLayoutAttributes) {
         let size = layoutAttributes.frame.size
-        let percent = (size.height - 180) / 80
+        let percent = (size.height - 300) / 80
         
         
         titleLabel.alpha = percent

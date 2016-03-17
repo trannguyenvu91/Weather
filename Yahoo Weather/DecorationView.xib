@@ -7,24 +7,29 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="DecorationView" customModule="Yahoo_Weather" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aoen 11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KFJ-50-lM7">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMGP6496.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="KFJ-50-lM7">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="175" id="vSS-bR-qaj"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <constraints>
                 <constraint firstItem="KFJ-50-lM7" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Dk2-w5-DqD"/>
                 <constraint firstItem="KFJ-50-lM7" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="KNk-lr-FT4"/>
                 <constraint firstAttribute="trailing" secondItem="KFJ-50-lM7" secondAttribute="trailing" id="VwZ-ht-tCe"/>
-                <constraint firstAttribute="bottom" secondItem="KFJ-50-lM7" secondAttribute="bottom" id="vKj-K1-1me"/>
             </constraints>
-            <point key="canvasLocation" x="245" y="370.5"/>
+            <connections>
+                <outlet property="heightConstraint" destination="vSS-bR-qaj" id="VAc-v2-djF"/>
+            </connections>
+            <point key="canvasLocation" x="394" y="252.5"/>
         </collectionReusableView>
     </objects>
     <resources>
-        <image name="aoen 11.jpg" width="5184" height="3456"/>
+        <image name="IMGP6496.JPG" width="3169" height="1980"/>
     </resources>
 </document>

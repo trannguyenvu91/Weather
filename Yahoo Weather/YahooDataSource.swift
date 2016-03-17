@@ -42,11 +42,11 @@ class YahooDataSource: NSObject , UICollectionViewDelegateFlowLayout, UICollecti
     
     // MARK: - UICollectionViewDelegateFlowLayout
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSizeMake(CGRectGetWidth(collectionView.frame), 60)
+        return CGSizeMake(CGRectGetWidth(collectionView.frame), 40)
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSizeMake(CGRectGetWidth(collectionView.frame), 200)
+        return CGSizeMake(CGRectGetWidth(collectionView.frame), 380)
     }
     
     // MARK: - UICollectionViewDelegate

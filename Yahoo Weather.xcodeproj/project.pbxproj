@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA02BE81C9A3BD400386686 /* IMGP6496.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0EA02BE71C9A3BD400386686 /* IMGP6496.JPG */; };
 		12554FE21C984FBE00362D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FE11C984FBE00362D8C /* AppDelegate.swift */; };
 		12554FE41C984FBE00362D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FE31C984FBE00362D8C /* ViewController.swift */; };
 		12554FE71C984FBE00362D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12554FE51C984FBE00362D8C /* Main.storyboard */; };
@@ -20,14 +21,13 @@
 		125550001C985F7500362D8C /* YahooCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12554FFE1C985F7500362D8C /* YahooCell.swift */; };
 		125550011C985F7500362D8C /* YahooCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12554FFF1C985F7500362D8C /* YahooCell.xib */; };
 		125550031C985FC900362D8C /* YahooDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125550021C985FC900362D8C /* YahooDataSource.swift */; };
-		125550051C9867C200362D8C /* png clouds in Resources */ = {isa = PBXBuildFile; fileRef = 125550041C9867C200362D8C /* png clouds */; };
 		12B59A781C9988D000808601 /* DecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B59A761C9988D000808601 /* DecorationView.swift */; };
 		12B59A791C9988D000808601 /* DecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B59A771C9988D000808601 /* DecorationView.xib */; };
 		12B59A7B1C99AA6E00808601 /* YahooFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B59A7A1C99AA6E00808601 /* YahooFlowLayout.swift */; };
-		12B59A7E1C99BDC200808601 /* aoen 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B59A7D1C99BDC200808601 /* aoen 11.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EA02BE71C9A3BD400386686 /* IMGP6496.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMGP6496.JPG; sourceTree = "<group>"; };
 		12554FDE1C984FBE00362D8C /* Yahoo Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12554FE11C984FBE00362D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12554FE31C984FBE00362D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,9 @@
 		12554FFE1C985F7500362D8C /* YahooCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooCell.swift; sourceTree = "<group>"; };
 		12554FFF1C985F7500362D8C /* YahooCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YahooCell.xib; sourceTree = "<group>"; };
 		125550021C985FC900362D8C /* YahooDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooDataSource.swift; sourceTree = "<group>"; };
-		125550041C9867C200362D8C /* png clouds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "png clouds"; sourceTree = "<group>"; };
 		12B59A761C9988D000808601 /* DecorationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecorationView.swift; sourceTree = "<group>"; };
 		12B59A771C9988D000808601 /* DecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecorationView.xib; sourceTree = "<group>"; };
 		12B59A7A1C99AA6E00808601 /* YahooFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooFlowLayout.swift; sourceTree = "<group>"; };
-		12B59A7D1C99BDC200808601 /* aoen 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aoen 11.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +92,7 @@
 				12554FFA1C98570700362D8C /* TodayCell.xib */,
 				12B59A761C9988D000808601 /* DecorationView.swift */,
 				12B59A771C9988D000808601 /* DecorationView.xib */,
-				12B59A7D1C99BDC200808601 /* aoen 11.jpg */,
-				125550041C9867C200362D8C /* png clouds */,
+				0EA02BE71C9A3BD400386686 /* IMGP6496.JPG */,
 				12554FE81C984FBE00362D8C /* Assets.xcassets */,
 				12554FEA1C984FBE00362D8C /* LaunchScreen.storyboard */,
 				12554FED1C984FBE00362D8C /* Info.plist */,
@@ -163,9 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12554FF61C98500600362D8C /* YahooHeader.xib in Resources */,
-				125550051C9867C200362D8C /* png clouds in Resources */,
+				0EA02BE81C9A3BD400386686 /* IMGP6496.JPG in Resources */,
 				12554FFC1C98570700362D8C /* TodayCell.xib in Resources */,
-				12B59A7E1C99BDC200808601 /* aoen 11.jpg in Resources */,
 				125550011C985F7500362D8C /* YahooCell.xib in Resources */,
 				12554FEC1C984FBE00362D8C /* LaunchScreen.storyboard in Resources */,
 				12554FE91C984FBE00362D8C /* Assets.xcassets in Resources */,
