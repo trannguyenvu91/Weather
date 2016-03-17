@@ -14,6 +14,7 @@ class DecorationView: UICollectionReusableView {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        layer.masksToBounds = true
         heightConstraint.constant = UIScreen.mainScreen().bounds.size.height
         self.setNeedsDisplay()
         self.layoutIfNeeded()
